@@ -1,5 +1,6 @@
 import unittest
 
+from appium import webdriver
 from app import MainClass
 
 

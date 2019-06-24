@@ -114,3 +114,4 @@ dmypy.json
 .pyre/
 .idea/workspace.xml
 .idea/workspace.xml
+apks/org.wikipedia.apk
