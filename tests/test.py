@@ -1,6 +1,7 @@
 import unittest
 
-from apps.app import MainClass
+from appium import webdriver
+from app import MainClass
 
 
 class MainClassTest(unittest.TestCase):
