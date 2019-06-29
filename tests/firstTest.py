@@ -10,7 +10,7 @@ class WikipediaTest(unittest.TestCase):
             'platformName': 'Android',
             'deviceName': 'Honor 10',
             'platformVersion': '9',
-            'app': '/users/admin/Desktop/python_appium_automation/apks/org.wikipedia.apk',
+            'app': '/users/admin/Desktop/python/python_appium_automation/apks/org.wikipedia.apk',
             'appActivity': '.main.MainActivity',
             'automationName': 'Appium'
 
