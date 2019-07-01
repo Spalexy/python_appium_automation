@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2a9cd5-39d7-4204-91d4-8ec6ac6623f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/first_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_appium_automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_appium_automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/first_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/first_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,22 +24,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/first_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="91" />
+            <state relative-caret-position="118">
+              <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="98" />
               <folding>
-                <element signature="e#4#32#0" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +107,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,34 +236,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 19m 02s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.06.30 at 16h 01m 47s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 19m 50s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.06.30 at 16h 02m 23s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 21m 51s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.06.30 at 16h 02m 59s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 22m 24s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 12h 00m 35s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 22m 35s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 12h 00m 44s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 29m 35s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 12h 01m 11s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 29m 45s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 12h 46m 16s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 31m 59s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 13h 05m 08s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 33m 48s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 13h 13m 23s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_first_test_py - 2019.06.29 at 22h 34m 33s.xml">
+    <history-entry file="pytest_in_first_test_py - 2019.07.01 at 13h 13m 54s.xml">
       <configuration name="pytest in first_test.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -309,13 +297,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/firstTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -323,6 +304,20 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -336,19 +331,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/first_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="91" />
+        <state relative-caret-position="118">
+          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="98" />
           <folding>
-            <element signature="e#4#32#0" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
           </folding>
         </state>
       </provider>
