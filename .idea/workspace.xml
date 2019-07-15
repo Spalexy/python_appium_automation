@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2a9cd5-39d7-4204-91d4-8ec6ac6623f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/first_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/first_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/first_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="65">
+              <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -240,9 +238,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 10h 39m 26s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 10h 41m 54s.xml">
       <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
     </history-entry>
@@ -268,6 +263,9 @@
       <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 29m 05s.xml">
+      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 30m 35s.xml">
       <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
     </history-entry>
   </component>
@@ -344,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/first_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="65">
+          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

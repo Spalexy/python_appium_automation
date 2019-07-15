@@ -123,12 +123,9 @@ def test_save_two_articles_remove_one(driver):
     swipe_element_to_left(driver,
                           '//*[@text=\'' + first_search + '\']')
 
-    time.sleep(3)
-
     wait_for_element_not_present(driver, 5,
                                  (By.XPATH, '//*[@text=\'' + first_search + '\']\')'))
 
-    time.sleep(1)
 
 
 def swipe_element_to_left(driver, element_xpath):
