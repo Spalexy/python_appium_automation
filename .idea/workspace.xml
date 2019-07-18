@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2a9cd5-39d7-4204-91d4-8ec6ac6623f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/first_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/first_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test.py">
+        <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/first_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+            <state relative-caret-position="189">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -37,19 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$USER_HOME$/.pyenv/versions/test_env372/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="35">
+              <caret line="360" column="8" selection-start-line="360" selection-start-column="8" selection-end-line="360" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -84,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="798" />
@@ -97,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,13 +96,17 @@
             </path>
             <path>
               <item name="python_appium_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_appium_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_appium_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for first_test.test_save_two_articles_remove_one">
+  <component name="RunManager" selected="Python tests.pytest for first_test.test_check_article_title_present">
     <configuration name="pytest for first_test.test_articles_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_appium_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +145,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;first_test.test_articles_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for first_test.test_check_article_title_present" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_appium_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;first_test.test_check_article_title_present&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -199,28 +208,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in first_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_appium_automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/first_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for first_test.test_save_two_articles_remove_one" />
-        <item itemvalue="Python tests.pytest for first_test.test_word_in_search_results" />
+        <item itemvalue="Python tests.pytest for first_test.test_check_article_title_present" />
         <item itemvalue="Python tests.pytest for first_test.test_articles_search" />
         <item itemvalue="Python tests.pytest for first_test.test_search_field" />
-        <item itemvalue="Python tests.pytest in first_test.py" />
+        <item itemvalue="Python tests.pytest for first_test.test_word_in_search_results" />
+        <item itemvalue="Python tests.pytest for first_test.test_save_two_articles_remove_one" />
       </list>
     </recent_temporary>
   </component>
@@ -238,39 +232,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 10h 41m 54s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 17m 27s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 00m 03s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 19m 45s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 12m 04s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 21m 33s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 12m 44s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 22m 27s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 19m 24s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 23m 48s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 21m 30s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 25m 02s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 26m 39s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 27m 51s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 27m 42s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 30m 18s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 29m 05s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 31m 07s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_first_test_test_save_two_articles_remove_one - 2019.07.15 at 11h 30m 35s.xml">
-      <configuration name="pytest for first_test.test_save_two_articles_remove_one" configurationId="tests" />
+    <history-entry file="pytest_for_first_test_test_check_article_title_present - 2019.07.18 at 23h 31m 59s.xml">
+      <configuration name="pytest for first_test.test_check_article_title_present" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -278,7 +272,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3716312" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3711048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,7 +312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -328,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
+        <state relative-caret-position="651">
           <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
@@ -340,10 +334,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/test_env372/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="360" column="8" selection-start-line="360" selection-start-column="8" selection-end-line="360" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/first_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

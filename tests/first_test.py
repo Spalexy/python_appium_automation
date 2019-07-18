@@ -127,6 +127,26 @@ def test_save_two_articles_remove_one(driver):
                                  (By.XPATH, '//*[@text=\'' + first_search + '\']\')'))
 
 
+def test_check_article_title_present(driver):
+    search = 'Python'
+    find_for_element_by_id_and_click(driver, 'org.wikipedia:id/search_container')
+
+    wait_for_element_by_id_and_send_keys(driver, 5,
+                                         'org.wikipedia:id/search_container',
+                                         search)
+
+    wait_for_element_by_xpath_and_click(driver, 5,
+                                        "//*[@resource-id='org.wikipedia:id/search_results_list']//*[@text='"
+                                        + search + "']")
+
+    assert_element_present_by_id(driver, 'org.wikipedia:id/view_page_title_text')
+
+
+def assert_element_present_by_id(driver, element_id):
+    elements = driver.find_elements_by_id(element_id)
+    elements_size = len(elements)
+    assert elements_size > 0
+
 
 def swipe_element_to_left(driver, element_xpath):
     element = driver.find_element_by_xpath(element_xpath)
