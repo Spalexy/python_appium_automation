@@ -16,7 +16,8 @@ def driver():
         'platformVersion': '9',
         'app': '/users/admin/Desktop/python/python_appium_automation/apks/org.wikipedia.apk',
         'appActivity': '.main.MainActivity',
-        'automationName': 'Appium'
+        'automationName': 'Appium',
+        'orientation': 'PORTRAIT'
     }
 
     driver = webdriver.Remote('http://0.0.0.0:4723/wd/hub', desired_caps)
@@ -27,6 +28,7 @@ def driver():
 
 
 def test_search_field(driver):
+    driver.orientation = 'LANDSCAPE'
     find_for_element_by_id_and_click(driver, 'org.wikipedia:id/search_container')
     wait_for_element_by_id_and_check_text(driver, 10, 'org.wikipedia:id/search_src_text', 'Поиск')
 
