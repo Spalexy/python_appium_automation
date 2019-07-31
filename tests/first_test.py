@@ -44,6 +44,17 @@ def test_word_in_search_results(driver):
     wait_for_element_by_id_and_send_keys(driver, 5, 'org.wikipedia:id/search_container', 'Python')
 
 
+def test_verify_each_search_result_contains_search_world(driver):
+    search_key_word = 'python'
+    find_for_element_by_id_and_click(driver, 'org.wikipedia:id/search_container')
+    wait_for_element_by_id_and_send_keys(driver, 5, 'org.wikipedia:id/search_container', search_key_word)
+
+    search_results = driver.find_elements_by_id('org.wikipedia:id/page_list_item_title')
+    for result in search_results:
+        result_title = result.get_attribute('text')
+        assert search_key_word in result_title.lower(), 'Key word was not found in the title of search results'
+
+
 def test_save_two_articles_remove_one(driver):
     first_search = 'Python'
     second_search = 'PyCharm'
