@@ -75,3 +75,13 @@ def test_swipe_article(search_page, article_page):
     article_page.wait_for_title_element()
     article_page.swipe_to_footer()
 
+
+def test_check_title_and_description_in_search_results(search_page):
+    search_page.init_search_input()
+    search_page.type_search_line('lemming')
+    search_page.wait_for_element_by_title_and_description('Lemming', 'Tribe of animals of the family Cricetidae')
+    search_page.wait_for_element_by_title_and_description('Lemmings (video game)',
+                                                    'Video game originally developed by DMA Design and published '
+                                                    'by Psygnosis in 1991')
+    search_page.wait_for_element_by_title_and_description('Lemmings (National Lampoon)', 'Album')
+

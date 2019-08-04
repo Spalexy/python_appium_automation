@@ -9,9 +9,17 @@ class SearchPageObject(MainPageObject):
     SEARCH_CANCEL_BUTTON = (By.ID, 'org.wikipedia:id/search_close_btn')
     SEARCH_RESULT_XPATH = '//*[@resource-id=\'org.wikipedia:id/page_list_item_container\']//*[@text=\'{SUBSTRING}\']'
     SEARCH_RESULTS = (By.ID, 'org.wikipedia:id/page_list_item_title')
+    SEARCH_RESULT_BY_TITLE_AND_DESCRIPTION_TPL = ('//android.widget.TextView[@text=\'{TITLE}\']'
+                                                  '/following-sibling::android.widget.'
+                                                  'TextView[@text=\'{DESCRIPTION}\']')
 
     def get_result_search_element(self, substring):
         return self.SEARCH_RESULT_XPATH.replace('{SUBSTRING}', substring)
+
+    def get_search_result_by_title_and_description(self, title, description):
+        return self.SEARCH_RESULT_BY_TITLE_AND_DESCRIPTION_TPL\
+            .replace('{TITLE}', title)\
+            .replace('{DESCRIPTION}', description)
 
     def init_search_input(self):
         self.wait_for_element_and_click(self.SEARCH_INIT_ELEMENT, 'Cannot find and click search container', 5)
@@ -46,3 +54,9 @@ class SearchPageObject(MainPageObject):
         for result in search_results:
             result_title = result.get_attribute('text')
             assert key_word in result_title.lower(), 'Key word was not found in the title of search results'
+
+    def wait_for_element_by_title_and_description(self, title, description):
+        search_result_xpath = self.get_search_result_by_title_and_description(title, description)
+        self.wait_for_element_present((By.XPATH, search_result_xpath),
+                                      'Cannot find result with title and description: ' + title + ', ' + description, 5)
+
